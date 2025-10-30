@@ -7,27 +7,35 @@ import accessoriesImage from "@/assets/product-accessories.jpg";
 const Products = () => {
   const products = [
     {
+      id: "tshirt",
       image: tshirtImage,
       name: "Kaos Supporter",
       price: "Rp 85.000",
+      priceNumber: 85000,
       description: "Katun combed premium, adem dan nyaman"
     },
     {
+      id: "totebag",
       image: totebagImage,
       name: "Totebag Kanvas",
       price: "Rp 65.000",
+      priceNumber: 65000,
       description: "Kanvas tebal berkualitas tinggi"
     },
     {
+      id: "keychain",
       image: keychainImage,
       name: "Keychain & Carabiner",
       price: "Rp 25.000",
+      priceNumber: 25000,
       description: "Aksesoris gantungan kunci berkualitas"
     },
     {
+      id: "accessories",
       image: accessoriesImage,
       name: "Paket Aksesoris",
       price: "Rp 45.000",
+      priceNumber: 45000,
       description: "Gelang, pin, dan stiker supporter"
     }
   ];
@@ -45,9 +53,9 @@ const Products = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
           {products.map((product, index) => (
-            <div key={index} style={{ animationDelay: `${index * 100}ms` }}>
+            <div key={product.id} style={{ animationDelay: `${index * 100}ms` }}>
               <ProductCard {...product} />
             </div>
           ))}

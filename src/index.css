@@ -17,9 +17,9 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 10%;
 
-    --primary: 270 75% 60%;
+    --primary: 271 100% 25%;
     --primary-foreground: 0 0% 100%;
-    --primary-hover: 270 75% 55%;
+    --primary-hover: 271 100% 17%;
 
     --secondary: 0 0% 96%;
     --secondary-foreground: 0 0% 10%;
@@ -40,10 +40,10 @@ All colors MUST be HSL.
     --radius: 0.75rem;
 
     /* Custom design tokens */
-    --gradient-primary: linear-gradient(135deg, hsl(270 75% 60%), hsl(290 70% 65%));
-    --gradient-hero: linear-gradient(180deg, hsl(0 0% 100%), hsl(270 60% 98%));
-    --shadow-card: 0 4px 20px -2px hsl(270 75% 60% / 0.1);
-    --shadow-card-hover: 0 8px 30px -4px hsl(270 75% 60% / 0.2);
+    --gradient-primary: linear-gradient(135deg, hsl(271 100% 25%), hsl(271 100% 35%));
+    --gradient-hero: linear-gradient(180deg, hsl(0 0% 100%), hsl(271 100% 98%));
+    --shadow-card: 0 4px 20px -2px hsl(271 100% 25% / 0.1);
+    --shadow-card-hover: 0 10px 40px -4px hsl(271 100% 25% / 0.25);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
@@ -57,9 +57,9 @@ All colors MUST be HSL.
     --popover: 0 0% 12%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 270 75% 60%;
+    --primary: 271 100% 25%;
     --primary-foreground: 0 0% 100%;
-    --primary-hover: 270 75% 55%;
+    --primary-hover: 271 100% 17%;
 
     --secondary: 0 0% 20%;
     --secondary-foreground: 0 0% 98%;
